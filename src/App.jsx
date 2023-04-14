@@ -59,7 +59,7 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/:mediaType/:id" element={<Details />} />
                 <Route path="/search/:query" element={<SearchResult />} />npm
                 <Route path="/explore/:mediaType" element={<Explore />} />
