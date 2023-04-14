@@ -59,11 +59,11 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route path="/:mediaType/:id" element={<Details />} />
-                <Route path="/search/:query" element={<SearchResult />} />npm
-                <Route path="/explore/:mediaType" element={<Explore />} />
-                <Route path="*" element={<PageNotFound />} />
+                <Route  path="/" element={<Home />} />
+                <Route  path="/:mediaType/:id" element={<Details />} />
+                <Route  path="/search/:query" element={<SearchResult />} />npm
+                <Route  path="/explore/:mediaType" element={<Explore />} />
+                <Route  path="*" element={<PageNotFound />} />
             </Routes>
             <Footer />
         </BrowserRouter>
